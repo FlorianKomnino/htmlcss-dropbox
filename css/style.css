@@ -21,6 +21,7 @@ header {
     height: 80px;
     /* da togliere */
     background-color: red;
+    justify-content: center;
 }
 
 header li,
