@@ -29,3 +29,10 @@ header ul {
     display: inline-block;
     align-items: center;
 }
+
+/* main selectors */
+
+.container {
+    height: 680px;
+    background-color: #b4d0e7;
+}
