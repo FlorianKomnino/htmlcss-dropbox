@@ -98,3 +98,8 @@ p.time-period {
     font-size: 0.85rem;
     margin-bottom: 2rem;
 }
+
+.icon-span {
+    display: inline-block;
+    height: 100%;
+}
