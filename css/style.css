@@ -6,11 +6,11 @@
 
 /* general selectors */
 
-flex {
+.flex {
     display: flex;
 }
 
-flex-centered {
+.flex-centered {
     justify-content: center;
     align-items: center;
 }
@@ -21,10 +21,11 @@ header {
     height: 80px;
     /* da togliere */
     background-color: red;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 header li,
 header ul {
     display: inline-block;
+    align-items: center;
 }
