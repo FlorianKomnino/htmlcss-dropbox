@@ -220,3 +220,16 @@ div#title-squares h1 {
 #faq-container {
     margin: 60px auto 60px;
 }
+
+#faq-container .p-faq,
+#faq-container h1 {
+    margin: 2rem;
+}
+
+#faq-container .p-faq {
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+/* footer selectors */
+
