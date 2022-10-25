@@ -184,7 +184,7 @@ article.operations{
     margin-top: 3rem;
 }
 
-/* sponsors selectors */
+/* partnerships selectors */
 .big-square {
     width: calc(100vw / 3);
     height: calc( 100vw / 3);
@@ -200,7 +200,7 @@ article.operations{
 
 #partnerships {
     margin-top: 6rem;
-    padding: 3rem 0;
+    padding-top: 3rem;
 }
 
 
@@ -210,6 +210,18 @@ article.operations{
 
 #title-squares h1 {
     margin-bottom: 3rem;
+}
+
+/* tryout selectors */
+#container-tryout h1 {
+    color: #61082b;
+    width: 50%;
+}
+
+#container-tryout button {
+    border: none;
+    width: 30%;
+    padding: 0.5rem 0;
 }
 
 #business-tryout {
@@ -226,9 +238,12 @@ article.operations{
     margin: 60px auto 130px;
 }
 
-#faq-container .p-faq,
-#faq-container h1 {
+#faq-container .p-faq {
     margin: 2rem 0;
+}
+
+#faq-container h1 {
+    margin: 7rem 0 4rem;
 }
 
 #faq-container .p-faq {
