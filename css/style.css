@@ -24,6 +24,10 @@
     align-items: center;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 /* header selectors */
 
 header {
@@ -42,7 +46,7 @@ header ul {
 /* big group < main > selectors */
 
 /* top of page selectors */
-.container-top-of-page {
+.container-grey-background {
     height: 680px;
     background-color: #b4d0e7;
 }
@@ -68,7 +72,7 @@ input {
 
 .thin-container {
     width: 52.5vw;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 /* sections selectors */
@@ -124,10 +128,6 @@ li.flex {
     margin-bottom: 2.5rem;
 }
 
-.horizontal-section-container {
-    padding: 2rem;
-}
-
 .horizontal-section {
     border: 0.75px solid lightgray;
     margin-top: 1.5rem;
@@ -144,4 +144,64 @@ button.horizontal-section-element {
 
 .horiontal-section-element {
     display: inline-block
+}
+
+/* find-a-partner selectors */
+.col-65 {
+    height: 100%;
+    width: 65%;
+    background-color: green;
+}
+
+.col-35 {
+    height: 100%;
+    width: 35%;
+    background-color: #0061ff;
+}
+
+#contact-partners {
+    height: 200px;
+    width: 52.5vw;
+    margin: 6rem 0;
+}
+
+/* operations selectors */
+
+div.operations {
+    justify-content: space-between;
+}
+
+article.operations{
+    width: calc(100% / 3 - 3rem);
+    height: 400px;
+    background-color: cyan;
+    margin-top: 3rem;
+}
+
+/* sponsors selectors */
+.big-square {
+    width: calc(100vw / 3);
+    height: calc( 100vw / 3);
+    background-color: black;
+    margin-top: 6rem;
+}
+
+.small-square {
+    width: 50%;
+    height: 50%;
+    background-color: green;
+}
+
+div#partnerships {
+    margin-top: 6rem;
+    padding: 3rem 0;
+}
+
+
+div#title-squares {
+    margin: 0 auto;
+}
+
+div#title-squares h1 {
+    margin-bottom: 3rem;
 }
