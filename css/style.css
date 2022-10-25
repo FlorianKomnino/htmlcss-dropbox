@@ -198,17 +198,17 @@ article.operations{
     background-color: green;
 }
 
-div#partnerships {
+#partnerships {
     margin-top: 6rem;
     padding: 3rem 0;
 }
 
 
-div#title-squares {
+#title-squares {
     margin: 0 auto;
 }
 
-div#title-squares h1 {
+#title-squares h1 {
     margin-bottom: 3rem;
 }
 
@@ -241,13 +241,33 @@ footer {
     background-color: #000000;
 }
 
+footer ul {
+    border: 1px solid white;
+    width: calc( 100% / 5 - 2rem);
+    display: inline-block;
+    height: 100%;
+}
+
+footer li {
+    list-style-type: none;
+}
+
 #container-upper-footer {
     background-color: red;
     width: 62.5%;
-    height: 200px;
+    height: 300px;
+    margin: 0 auto;
 }
 
-#container-upper-footer ul {
-    width: calc( 100% / 5 - 2rem);
-    height: 100%;
+#container-lower-footer {
+    background-color: #000000;
+    width: 62.5%;
+    height: 90px;
+    margin: 0 auto;
+    color: white;
+}
+
+#container-lower-footer hr {
+    margin: 4rem 0 2rem 0;
+    width: 100px;
 }
