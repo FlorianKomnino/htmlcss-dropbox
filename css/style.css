@@ -28,11 +28,14 @@
     flex-wrap: wrap;
 }
 
+.flex-space-between {
+    justify-content: space-between;
+}
+
 /* header selectors */
 
 header {
     height: 80px;
-    justify-content: space-between;
     /* da togliere */
     background-color: red;
 }
@@ -72,7 +75,6 @@ input {
 
 .thin-container {
     width: 52.5vw;
-    justify-content: space-between;
 }
 
 /* sections selectors */
@@ -168,7 +170,6 @@ button.horizontal-section-element {
 /* operations selectors */
 
 div.operations {
-    justify-content: space-between;
 }
 
 article.operations{
