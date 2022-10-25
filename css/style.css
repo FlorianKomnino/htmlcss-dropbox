@@ -244,6 +244,7 @@ footer {
 #container-upper-footer {
     background-color: red;
     width: 62.5%;
+    height: 200px;
 }
 
 #container-upper-footer ul {
