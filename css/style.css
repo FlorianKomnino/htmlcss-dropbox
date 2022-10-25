@@ -242,18 +242,24 @@ footer {
 }
 
 footer ul {
-    border: 1px solid white;
-    width: calc( 100% / 5 - 2rem);
+    width: calc( 100% / 5 - 3rem);
     display: inline-block;
     height: 100%;
+    color: white;
+    font-size: 0.8rem;
+    justify-content: center;
 }
 
 footer li {
     list-style-type: none;
+    margin: 0.75rem 0 0 0.5rem;
+}
+
+li h1 {
+    font-size: 1.25rem;
 }
 
 #container-upper-footer {
-    background-color: red;
     width: 62.5%;
     height: 300px;
     margin: 0 auto;
@@ -264,10 +270,11 @@ footer li {
     width: 62.5%;
     height: 90px;
     margin: 0 auto;
-    color: white;
+    color: grey;
 }
 
 #container-lower-footer hr {
     margin: 4rem 0 2rem 0;
     width: 100px;
+    background-color: lightgray;
 }
