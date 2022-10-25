@@ -35,7 +35,7 @@
 /* header selectors */
 
 header {
-    height: 80px;
+    height: 60px;
     /* da togliere */
     background-color: red;
 }
@@ -50,8 +50,16 @@ header ul {
 
 /* top of page selectors */
 .container-grey-background {
-    height: 680px;
+    height: 600px;
     background-color: #b4d0e7;
+}
+
+.wide-container {
+
+    width: 62.5%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 2rem
 }
 
 /* title selctors */
@@ -90,11 +98,11 @@ p.time-period {
     margin-bottom: 2rem;
 }
 
-li.flex .icon-span {
+section li.flex .icon-span {
     margin-right: 0.5rem;
 }
 
-li.flex {
+section li.flex {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
@@ -169,9 +177,6 @@ button.horizontal-section-element {
 
 /* operations selectors */
 
-div.operations {
-}
-
 article.operations{
     width: calc(100% / 3 - 3rem);
     height: 400px;
@@ -218,18 +223,30 @@ div#title-squares h1 {
 }
 
 #faq-container {
-    margin: 60px auto 60px;
+    margin: 60px auto 130px;
 }
 
 #faq-container .p-faq,
 #faq-container h1 {
-    margin: 2rem;
+    margin: 2rem 0;
 }
 
 #faq-container .p-faq {
     font-weight: 800;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 /* footer selectors */
+footer {
+    background-color: #000000;
+}
 
+#container-upper-footer {
+    background-color: red;
+    width: 62.5%;
+}
+
+#container-upper-footer ul {
+    width: calc( 100% / 5 - 2rem);
+    height: 100%;
+}
