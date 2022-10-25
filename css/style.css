@@ -206,3 +206,17 @@ div#title-squares {
 div#title-squares h1 {
     margin-bottom: 3rem;
 }
+
+#business-tryout {
+    margin:  auto;
+    height: 280px;
+    align-items: center;
+}
+
+#container-tryout {
+    background-color: #b4d0e7;
+}
+
+#faq-container {
+    margin: 60px auto 60px;
+}
