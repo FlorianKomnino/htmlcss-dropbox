@@ -239,7 +239,6 @@ button.horizontal-section-element {
 
 /* find-a-partner selectors */
 .col-65 {
-    height: 100%;
     width: 65%;
     background-color: green;
 }
@@ -250,10 +249,14 @@ button.horizontal-section-element {
     background-color: #0061ff;
 }
 
+.col-65 img {
+    width: 100%;
+}
+
 #contact-partners {
-    height: 200px;
+    height: 450px;
     width: 52.5vw;
-    margin: 6rem 0;
+    margin: 8rem 0;
 }
 
 /* operations selectors */
