@@ -39,6 +39,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 3;
 }
 
 header li,
@@ -310,25 +311,12 @@ article.operations{
 .small-square {
     width: 50%;
     height: 50%;
+    position: relative;
 }
 
 .central-big-square {
     padding-left: 2rem;
     background-color: #f5f5f5;
-}
-
-#partnerships {
-    margin-top: 6rem;
-    padding-top: 3rem;
-}
-
-
-#title-squares {
-    margin: 0 auto;
-}
-
-#title-squares h1 {
-    margin-bottom: 3rem;
 }
 
 .big-square img {
@@ -338,11 +326,132 @@ article.operations{
 .big-square hr {
     width: 100px;
     background-color: #d0d0d3;
-    margin: 1rem 0;
 }
 
 .big-square p {
     margin: 2rem 0;
+}
+
+#title-squares h1 {
+    margin-bottom: 3rem;
+}
+
+#title-squares a {
+    font-size: 0.8rem;
+}
+
+#LU-square-l-side img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%)
+}
+
+#RU-square-l-side img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%)
+}
+
+#LD-square-l-side img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%)
+}
+
+#RD-square-l-side img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%)
+}
+
+#LU-square-r-side img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%)
+}
+
+#RU-square-r-side img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%)
+}
+
+#LD-square-r-side img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%)
+}
+
+#RD-square-r-side img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%)
+}
+
+#partnerships {
+    margin-top: 6rem;
+    padding-top: 3rem;
+}
+
+#title-squares {
+    margin: 0 auto 1.5rem;
+}
+
+#LU-square-l-side {
+    background-color: #a2d39b;
+    border: solid 15px #d1e9cd;
+}
+
+#RU-square-l-side {
+    background-color: #61082b;
+}
+
+#LD-square-l-side {
+    background-color: #0093ce;
+}
+
+#RD-square-l-side {
+    background-color: #ff1c1c;
+}
+
+#LU-square-r-side {
+    background-color: #d5001f;
+}
+
+#RU-square-r-side {
+    background-color: #b4d0e7;
+}
+
+#LD-square-r-side {
+    background-color: #0d2481;
+}
+
+#RD-square-r-side {
+    background-color: #ffd830;
 }
 
 /* tryout selectors */
