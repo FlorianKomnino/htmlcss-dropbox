@@ -36,8 +36,9 @@
 
 header {
     height: 60px;
-    /* da togliere */
     position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 header li,
@@ -55,7 +56,8 @@ header li img {
     transform: scale(0.8);
 }
 
-header li button {
+header li button,
+article button {
     border: none;
     background-color: #0061ff;
     padding: 0.35rem 0.7rem;
@@ -65,9 +67,16 @@ header li button {
 /* big group < main > selectors */
 
 /* top of page selectors */
+.wide-container h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    padding: 4rem 0 2rem 0;
+}
+
 .container-grey-background {
-    height: 600px;
+    height: 610px;
     background-color: #b4d0e7;
+    padding-top: 60px;
 }
 
 .wide-container {
@@ -75,19 +84,55 @@ header li button {
     width: 62.5%;
     height: 100%;
     margin: 0 auto;
-    padding-top: 2rem
+}
+
+.top-l-side {
+    width: 35%;
+}
+
+.top-r-side {
+    width: 65%;
+}
+
+.top-l-side * {
+    margin-bottom: 1.5rem;
+}
+
+.top-r-side img {
+    width: 100%;
+}
+
+.top-l-side button {
+    border: none;
+    background-color: #0061ff;
+    padding: 0.6rem 0.8rem;
+    color: white;
+}
+
+.down-arrow {
+    font-size: 3rem;
+}
+
+.down-arrow a {
+text-decoration: none;
+color: black;
 }
 
 /* title selctors */
+#offers h1 {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+}
+
 input {
     width: 1rem;
     height: 1rem;
     margin-bottom: 3rem;
+    font-size: 0.8rem;
 }
 
 .container-title .thin-container h1 {
-    margin: 10rem 3rem 4rem 0;
-    font-size: 2.5rem;
+    margin: 5rem 3rem 4rem 0;
     font-weight: 800;
 }
 
