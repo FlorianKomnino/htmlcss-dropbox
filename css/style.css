@@ -238,19 +238,33 @@ button.horizontal-section-element {
 }
 
 /* find-a-partner selectors */
-.col-65 {
-    width: 65%;
-    background-color: green;
+.col-60 {
+    width: 60%;
 }
 
-.col-35 {
+.col-40 {
     height: 100%;
-    width: 35%;
-    background-color: #0061ff;
+    width: 40%;
+    padding: 0 0 0 2.5rem;
 }
 
-.col-65 img {
+.col-40 * {
+    margin-top: 2rem;
+}
+
+.col-40 h1 {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.col-60 img {
     width: 100%;
+}
+
+.col-40 button {
+    padding: 0.35rem 0.7rem;
+    background-color: white;
+    color: grey;
 }
 
 #contact-partners {
@@ -260,7 +274,6 @@ button.horizontal-section-element {
 }
 
 /* operations selectors */
-
 article.operations{
     width: calc(100% / 3 - 3rem);
     height: 400px;
