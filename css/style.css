@@ -128,7 +128,6 @@ input {
     width: 1rem;
     height: 1rem;
     margin-bottom: 3rem;
-    font-size: 0.8rem;
 }
 
 .container-title .thin-container h1 {
@@ -139,7 +138,7 @@ input {
 .container-title .thin-container span {
     margin: 0 3rem 2rem 0.2rem;
     vertical-align: top;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 
 .thin-container {
@@ -164,7 +163,7 @@ section li.flex .icon-span {
 }
 
 section li.flex {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 1rem;
 }
 
@@ -176,7 +175,7 @@ section li.flex {
 
 .vertical-section {
     border: 0.75px solid lightgray;
-    width: calc(100% / 3 - 3rem);
+    width: calc(100% / 3 - 2rem);
 }
 
 .vertical-section-description {
@@ -199,6 +198,10 @@ section li.flex {
     margin-bottom: 2.5rem;
 }
 
+.vertical-section-description ul {
+    min-height: 150px;
+}
+
 .horizontal-section {
     border: 0.75px solid lightgray;
     margin-top: 1.5rem;
@@ -211,10 +214,27 @@ div.horizontal-section-element {
 button.horizontal-section-element {
     width: 30%;
     margin: 1rem;
+    align-self: start;
 }
 
-.horiontal-section-element {
-    display: inline-block
+.horizontal-section-element *{
+    padding: 0.5rem 0 0.5rem 2rem;
+}
+
+.horizontal-section-element h2{
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-top: 1.5rem;
+}
+
+.horizontal-section-element h3{
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.horizontal-section-element p{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
 }
 
 /* find-a-partner selectors */
