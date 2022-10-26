@@ -37,13 +37,29 @@
 header {
     height: 60px;
     /* da togliere */
-    background-color: red;
+    position: fixed;
 }
 
 header li,
 header ul {
     display: inline-block;
     align-items: center;
+}
+
+header li {
+    padding: 0 0.8rem;
+    font-size: 0.8rem;
+}
+
+header li img {
+    transform: scale(0.8);
+}
+
+header li button {
+    border: none;
+    background-color: #0061ff;
+    padding: 0.35rem 0.7rem;
+    color: white;
 }
 
 /* big group < main > selectors */
