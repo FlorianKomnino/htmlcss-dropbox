@@ -277,8 +277,27 @@ button.horizontal-section-element {
 article.operations{
     width: calc(100% / 3 - 3rem);
     height: 400px;
-    background-color: cyan;
-    margin-top: 3rem;
+    margin-top: 2rem;
+}
+
+.operations img {
+    width: 100%;
+}
+
+.operations h1 {
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+}
+
+.operations p {
+    padding-top: 1.5rem;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+}
+
+#operations-title {
+    margin-bottom: 1rem;
 }
 
 /* partnerships selectors */
